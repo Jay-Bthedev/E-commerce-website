@@ -1,11 +1,11 @@
-alert("hello");
+
 var toastTrigger = document.querySelector(".toastbtn");
 var arrayOfProducts = [];
 var productWrapper = document.querySelector(".products-wrapper")
 
 
 document.addEventListener('DOMContentLoaded', function() {
-     alert("working");
+    
      regFunction();
 });
 

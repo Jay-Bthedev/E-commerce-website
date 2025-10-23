@@ -3,7 +3,12 @@ var arrayOfProducts = [];
 var productWrapper = document.querySelector(".products-wrapper")
 
 
-fetch("https://dummyjson.com/products")
+document.addEventListener('DOMContentLoaded', function() {
+     alert("working");
+     regFunction();
+});
+
+const regFunction = () => fetch("https://dummyjson.com/products")
   .then((res) => res.json())
   .then((data) => {
     console.log(data);

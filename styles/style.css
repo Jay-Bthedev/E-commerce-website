@@ -297,10 +297,7 @@ padding: 40px 40px;
 
 }
 
-.into{
 
-
-}
 
 .into a{
     text-decoration: none;
@@ -331,18 +328,20 @@ align-items: center;
 .toknow{
     padding-top: 80px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 80%;
   
     font-size: 12px;
 }
 .toknow h3{
     padding-top: 10px;
     font-size: 15px;
+    font-weight: 600;
 }
 
 .toknow div{
     border: solid rgba(128, 128, 128, 0.575);
-    width: 13%;
+    width: 18%;
     height: auto;
     justify-items: center;
     border-radius: 10px;
@@ -367,6 +366,115 @@ align-items: center;
 }
     
 }
+
+
+/* second part */
+
+
+.customer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    width: 96%;
+    
+}
+
+.custom{
+   width: 50%;
+   object-fit: cover;
+}
+.app{
+    width: 30px;
+}
+
+
+
+/* third part */
+
+.free{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+    font-size: 12px;
+    width: 80%;
+    align-items: center;
+}
+
+.free div{
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  text-align: center;
+    gap: 10px;
+}
+.free h3{ 
+    font-size: 14px;
+}
+.free img{
+    width: 50px;
+}
+
+
+
+/* foooter */
+
+.foot{
+padding-top:40px;
+background-color: black;
+align-items: center;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    width: 100%;
+    
+}
+.footer dd{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.footer dt{
+    font-weight: 200;
+    font-size: 12px;
+}
+
+
+.colo{
+    background-color: black;
+    width: 150px;
+    margin-top: 10px;
+}
+
+.siz{
+    width: 20px;
+    position: relative;
+    right: 30px;
+
+}
+.si{
+  width: 20px;  
+}
+
+.qr{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    gap: 10px;
+    
+
+}
+.ic{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* media query */
+
 @media screen and (max-width: 450px){
     .toknow{
         display: flex;
@@ -379,5 +487,43 @@ align-items: center;
         height: auto;
         align-self: center;
     }
+
+    .customer{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    .free{
+        display: block;
+    }
+.footer{
+    display: block;
+    text-align: center;
+}
+.qr{
+    justify-self: center;
+}
+    
+}
+
+
+/* Contact */
+
+.contact{
+padding: 40px 40px;
+
+}
+
+.contact-nav a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.572);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.contact-nav a:hover{
+    color: black;
+    cursor: pointer;  
 }
 

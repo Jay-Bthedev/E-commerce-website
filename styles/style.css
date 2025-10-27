@@ -316,7 +316,7 @@ padding: 40px 40px;
 .sid{
     width: 100%;
     height: 25rem;
- 
+ object-fit: cover;
     border-radius: 10px;
 }
 .int{
@@ -324,17 +324,19 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 
+
 }
 
 
 .toknow{
     padding-top: 80px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   
     font-size: 12px;
 }
 .toknow h3{
+    padding-top: 10px;
     font-size: 15px;
 }
 
@@ -344,6 +346,9 @@ align-items: center;
     height: auto;
     justify-items: center;
     border-radius: 10px;
+    background-color: rgb(205, 198, 198);
+    text-align: center;
+    padding: 10px 10px;
 }
 .toknow img{
     width: 40px;
@@ -358,7 +363,21 @@ align-items: center;
 @media screen and (max-width: 800px){
 .int{
     display: block;
+    
 }
     
+}
+@media screen and (max-width: 450px){
+    .toknow{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+    .toknow div{
+        width: 50%;
+        height: auto;
+        align-self: center;
+    }
 }
 

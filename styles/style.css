@@ -293,7 +293,8 @@ body{
 /* first part */
 
 .about{
-padding: 40px 40px;
+padding-top: 40px;
+padding-bottom: 40px;
 
 }
 
@@ -305,16 +306,23 @@ padding: 40px 40px;
     font-weight: 400;
     font-size: 15px;
 }
+.home-nav{
+    padding-left: 40px;
+}
+.story{
+    padding-left: 40px;
+    padding-left: 40px;
+}
 
 .into a:hover{
     color: black;
     cursor: pointer;  
 }
 .sid{
-    width: 100%;
+    width: fit-content;
     height: 25rem;
  object-fit: cover;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .int{
 display: flex;
@@ -329,21 +337,23 @@ align-items: center;
     padding-top: 80px;
     display: flex;
     justify-content: space-between;
-    width: 80%;
-  
+ 
+padding-left: 40px;
+padding-right: 40px;  
     font-size: 12px;
+   
 }
 .toknow h3{
     padding-top: 10px;
     font-size: 15px;
     font-weight: 600;
+    
 }
 
 .toknow div{
     border: solid rgba(128, 128, 128, 0.575);
     width: 18%;
     height: auto;
-    justify-items: center;
     border-radius: 10px;
     background-color: rgb(205, 198, 198);
     text-align: center;
@@ -364,6 +374,14 @@ align-items: center;
     display: block;
     
 }
+.story{
+    width: 90%;
+}
+.sid{
+    padding-top: 20px;
+  width: 90%;
+   padding-left: 40px;
+}
     
 }
 
@@ -375,8 +393,8 @@ align-items: center;
     display: flex;
     justify-content: space-between;
     padding-top: 80px;
-    width: 96%;
-    
+    text-align: center;
+         
 }
 
 .custom{
@@ -396,7 +414,7 @@ align-items: center;
     justify-content: space-around;
     padding-top: 80px;
     font-size: 12px;
-    width: 80%;
+    
     align-items: center;
 }
 
@@ -512,7 +530,12 @@ height: 50vh;
 /* Contact */
 
 .contact{
-padding: 40px 40px;
+padding: 40px;
+
+
+
+
+
 
 }
 
@@ -535,11 +558,15 @@ padding: 40px 40px;
      padding-right: 20px;
      height: 20.2rem;
      width: 300px;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
 }
 .call{
     display: flex;
     gap: 10px;
     align-items: center;
+    
    
 }
 .call img{
@@ -549,9 +576,18 @@ padding: 40px 40px;
 .call h3{
     font-size: 15px;
 }
+.w p{
+    font-size: 12px;
+}
 .we p{
     font-size: 12px;
 }
+.we{
+    border-bottom: ridge;
+   
+}
+
+
 
 .form{
  
@@ -561,6 +597,7 @@ padding: 40px 40px;
       padding-bottom: 60px;
       box-shadow: 3px 0 20px rgba(0, 0, 0, 0.216);
       border-radius: 5px;
+      width: fit-content;
       
 
 
@@ -591,6 +628,9 @@ padding: 40px 40px;
  gap: 20px;
  align-items: center;
  padding-top: 40px;
+ justify-content: center;
+
+
 
 }
  .form button{
@@ -616,5 +656,151 @@ padding: 40px 40px;
     width: 300px;
 }
  }
+
+
+
+/* Shop */
+
+
+.shop{
+
+padding-top: 40px;
+padding-bottom: 80px;
+padding-left: 40px;
+padding-right: 40px;
+}
+
+.shop-nav a{
+text-decoration: none;
+    color: rgba(0, 0, 0, 0.572);
+    font-weight: 400;
+    font-size: 15px;
+}
     
  
+.shop-nav a:hover{
+    color: black;
+    cursor: pointer;  
+}
+.shop-hero{
+gap: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.shop-display{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.185);
+   padding-left: 10px;
+   padding-right:10px;
+   padding-top: 10px;
+   align-items: center;
+   
+
+}
+.shop-button{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.shop-button button{
+    border: ridge;
+    background-color: white;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.shop-button button:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+.shop-img{
+    width: 30px;
+}
+
+.inp{
+    width: 22%;
+}
+.shop-section{
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-between;
+}
+
+.button-sty{
+    border: ridge;
+    background-color: white;
+    cursor: pointer;
+border-radius: 5px;
+}
+
+.shop-section button:hover{
+transform: scale(1.2);
+transition: 1s;
+}
+.define{
+    border: ridge black;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.define dd{
+     padding: 10px;
+     font-weight: 600;
+}
+.define-dt{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: ridge;
+    font-weight: 400;
+}
+.define-d{
+     display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.button-style{
+    background-color:rgba(210, 52, 60, 0.962) ;
+     cursor: pointer;
+border-radius: 5px;
+ border: ridge;
+}
+.button-styl{
+    background-color:rgba(210, 52, 60, 0.962) ;
+     cursor: pointer;
+border-radius: 5px;
+ border: ridge;
+ justify-self: center;
+ width: 40%;
+ height: 40px;
+ align-self: center;
+ font-size: 12px;
+
+}
+
+@media screen and (max-width: 500px){
+    .button-styl{
+        font-size: 10px;
+        width: 80%;
+        height: 35px;
+    }
+    .shop-fi{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .shop-button{
+        font-size: 12px;
+    }
+    
+}
+
+

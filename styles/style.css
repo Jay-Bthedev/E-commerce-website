@@ -422,6 +422,7 @@ align-items: center;
 padding-top:40px;
 background-color: black;
 align-items: center;
+height: 50vh;
 
 }
 
@@ -526,4 +527,94 @@ padding: 40px 40px;
     color: black;
     cursor: pointer;  
 }
+.to{
+     box-shadow: 3px 0 20px rgba(0, 0, 0, 0.216);   
+     border-radius: 5px;
+     padding-top: 20px;
+     padding-left: 20px;
+     padding-right: 20px;
+     height: 20.2rem;
+     width: 300px;
+}
+.call{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+   
+}
+.call img{
+    width: 30px;
+     object-fit: contain;
+}
+.call h3{
+    font-size: 15px;
+}
+.we p{
+    font-size: 12px;
+}
 
+.form{
+ 
+      padding-top: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 60px;
+      box-shadow: 3px 0 20px rgba(0, 0, 0, 0.216);
+      border-radius: 5px;
+      
+
+
+    
+    
+}
+.form-m{
+    background-color: rgb(183, 179, 179);
+    border: none;
+    height: 35px;
+    border-radius: 5px;
+    width: 100%;
+    
+  
+}
+.big-form{
+    height: 120px;
+    width: 100%;
+ background-color: rgb(183, 179, 179);
+ border-radius: 5px;
+ border: none;
+ padding-bottom: 70px;
+ 
+}
+.fle{
+    display: flex;
+    flex-direction: row;
+ gap: 20px;
+ align-items: center;
+ padding-top: 40px;
+
+}
+ .form button{
+    background-color: rgba(210, 52, 60, 0.962);
+    border: none;
+   
+ }
+
+ @media screen and (max-width: 900px){
+
+.to p {
+    font-size: 10px;
+}
+
+ }
+
+ @media screen and (max-width: 750px){
+.fle{
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    width: 300px;
+}
+ }
+    
+ 
